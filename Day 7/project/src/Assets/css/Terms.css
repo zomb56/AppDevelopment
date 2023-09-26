@@ -1,0 +1,7 @@
+.terms-container {
+    background-color: hsl(216, 25%, 95.1%);
+    max-width: 100%; 
+    margin: 30px;
+    border-radius: 30px;
+    animation: fadeIn 1s ease-in-out;
+  }

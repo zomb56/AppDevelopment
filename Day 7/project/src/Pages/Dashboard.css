@@ -1,0 +1,103 @@
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 30px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 300px;
+  }
+
+  .d1 {
+    background-image: url("https://www.shutterstock.com/image-vector/poitical-debate-vector-isolated-two-260nw-1774416971.jpg");
+    background-blend-mode: soft-light;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 50px;
+    border-radius: 30px;
+  }
+
+  .d2 {
+    background-image: url("https://media.istockphoto.com/id/1161109403/vector/ballot-paper-with-candidates.jpg?s=2048x2048&w=is&k=20&c=FT0hx2gRPdpMXfRLMr0SkZZLNWZ6euDw61GKHnztAbA=");
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+  .d3 {
+    background-image: url("https://img.etimg.com/thumb/msid-95802565,width-300,height-225,imgsize-434067,,resizemode-75/voting.jpg");
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+  .d4 {
+    background-image: url("https://media.istockphoto.com/id/1161109403/vector/ballot-paper-with-candidates.jpg?s=2048x2048&w=is&k=20&c=FT0hx2gRPdpMXfRLMr0SkZZLNWZ6euDw61GKHnztAbA=");
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+
+  .dashboard-container h1 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .d1 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .d2 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .d3 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .d4 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .polls1 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+  }
+  .polls2 {
+    margin-bottom: 30px;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+}

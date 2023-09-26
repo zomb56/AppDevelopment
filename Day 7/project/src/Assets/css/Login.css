@@ -1,0 +1,120 @@
+.popup {
+    margin: auto;
+    background: white;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+    background: white;
+    transform: translate(0%, 50%);
+    /* top: 10%;
+    left: 50%; */
+    /* position: absolute; */
+    /* transition: transform 0.4s, top 0.4s; */
+}
+
+.lcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 15vh;
+    width: 100%;
+    max-width: 400px;
+    /* background: white; */
+    /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+.lheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.ltext {
+    color: #3c009d;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.lunderline {
+    width: 60px;
+    height: 5px;
+    background: #3c009d;
+    border-radius: 10px;
+}
+
+.linputs {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px;
+    gap: 20px;
+}
+
+.linput {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    background: rgb(203, 203, 203);
+    /* background: white; */
+    border-radius: 5px;
+}
+
+.linput img {
+    color: black;
+    transform: scale(0.5);
+}
+
+.linput input {
+    /* height: 40px;
+    width: 500px; */
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+}
+
+.lsubmit-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    gap: 15px;
+    align-items: center;
+}
+
+.lsubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    color: white;    
+    /* background: rgb(42, 191, 191); */
+    /* background: #196CFF; */
+    background: #4c00b4;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}
+
+.lgray {
+    width: 100%;
+    background: rgb(203, 203, 203);
+    color: black;
+    /* background: white; */
+}
