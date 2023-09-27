@@ -1,0 +1,131 @@
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: hsl(216, 25%, 95.1%);
+    border-radius: 30px;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+    
+    .polls1, .polls2 {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .d1, .d2, .d3, .d4 {
+      margin: 0 0 20px 0;
+    }
+  }
+  
+  h1 {
+    padding-bottom: 30px;
+  }
+
+  .d1 {
+    background-image: url("https://www.shutterstock.com/image-vector/poitical-debate-vector-isolated-two-260nw-1774416971.jpg");
+    background-blend-mode: soft-light;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 50px;
+    /* border-radius: 30px; */
+  }
+  
+  .d2 {
+    background-image: url("https://media.istockphoto.com/id/1161109403/vector/ballot-paper-with-candidates.jpg?s=2048x2048&w=is&k=20&c=FT0hx2gRPdpMXfRLMr0SkZZLNWZ6euDw61GKHnztAbA=");
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    /* border-radius: 30px; */
+  }
+  .d3 {
+    background-image: url("https://img.etimg.com/thumb/msid-95802565,width-300,height-225,imgsize-434067,,resizemode-75/voting.jpg");
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    /* border-radius: 30px; */
+  }
+  .d4 {
+    background-image: url("https://media.istockphoto.com/id/1161109403/vector/ballot-paper-with-candidates.jpg?s=2048x2048&w=is&k=20&c=FT0hx2gRPdpMXfRLMr0SkZZLNWZ6euDw61GKHnztAbA=");
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    /* border-radius: 30px; */
+  }
+
+  .dashboard-container h1 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .d1 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .d2 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .d3 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .d4 h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .polls1 {
+    margin-bottom: 60px;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+  }
+  .polls2 {
+    margin-bottom: 30px;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+
+.con {
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+h3 {
+  padding: 10px;
+}
